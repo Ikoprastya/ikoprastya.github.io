@@ -1,0 +1,57 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font: 16px/28px arial, sans-serif;
+	color: #2f4f4f;
+	background-image: url(../images/vadim-sadovski-nlkCCijt2FE-unsplash.jpg);
+
+}
+
+article {
+	width: 960px;
+	margin: 80px auto ;
+	padding: 50px;
+	position: relative;
+	border-top: 10px solid burlywood;
+	background-color: FloralWhite;
+}
+
+/*Title Page*/
+.privacy {
+	color: white;
+	margin-top: -90px;
+	margin-left: -50px;
+
+}
+
+.privacy a {
+	color: white;
+	text-decoration: none;
+	
+}
+.privacy a:hover{
+	text-shadow: 2px 2px 10px cyan;
+}
+
+a {
+	color: black;
+}
+
+/*Last Update*/
+#update {
+	right: 20px;
+	position: absolute;
+	padding-top: 30px;
+}
+
+/*background image*/
+#background {
+	color: white;
+	bottom: 10px;
+	margin-left: 20px;
+}
+#background a {
+	color: white;
+	text-decoration: underline;
+}

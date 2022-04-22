@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <meta name="keywords" content="Registration, Form, Course" />
+    <meta name="description"
+        content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='RegistrationForm.css' type='text/css' />
+    <link rel="stylesheet" href="style.css">
+    <script src="RegistrationForm.js"></script>
+    
+</head>
+
+<body onload="document.registration.user_name.focus();">
+
+    <div class="container">
+        
+        <h1>Registration Form</h1>
+    
+        <form name='registration' action="../ThankyouPage/thankyou.html" onSubmit="return formValidation();">
+
+            <div class="row">
+                <div class="col-25"><label for="user-name">Name:</label></div>
+                <div class="col-75"><input type="text" name="user_name" id="user_name" size="50" placeholder="Enter User Name here" required /></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-25"><label id="gender">Gender:</label></div>
+                <div class="col-75">
+                    <input type="radio" name="gender" value="Male" checked /><span>Male</span>
+                    <input type="radio" name="gender" value="Female" /><span>Female</span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-25"><label for="email">Email:</label></div>
+                <div class="col-75"><input type="text" name="email" id="email" size="50" placeholder="Enter your email here" required /></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-25"><label for="contact">Contact:</label></div>
+                <div class="col-75"><input type="text" name="contact" id="contact" size="8" placeholder="Enter your contact number here" required /></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-25"><label for="address">Address:</label></div>
+                <div class="col-75"><input type="text" name="address" id="address" size="50" placeholder="Enter your Address here" /></div>
+            </div>
+            
+            <br>
+            <div class="row">
+                <div class="col-25"><label for="comments">comments:</label></div>
+                <div class="col-75"><textarea name="commnets" id="comments" rows="5" cols="50" placeholder="Enter your comments here"></textarea></div>
+            </div>      
+            <br>
+            <input type="submit" name="submit" value="Submit" />
+
+        </form>
+    </div>
+
+<!-- following purpose -->
+<div class="follow-us">
+    <span id="follow-us">Follow Us</span><br><br>
+    <div id="center">
+        <a href="https://www.instagram.com/ikoprastya/"><img class="fa fa-instagram" src="../images/instagram-logo.jpg"></a>
+        <a href="https://youtu.be/IfrJOdnm0Bg"><img class="fa fa-youtube" src="../images/Logo-Youtube.png"></a>
+        <a href="https://twitter.com/SatuuSatunya"><img class="fa fa-instagram" src="../images/twiter-logo.png"></a>
+    </div>
+    <div id="background">
+    Photo by <a href="https://unsplash.com/@vadimsadovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vadim Sadovski</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+</body>
+
+</html>

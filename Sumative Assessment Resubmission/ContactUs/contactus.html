@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>contact us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="../HomePage/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<!-- title -->
+	<div class="contac">
+		<a id="as" href="../HomePage/home.html">HOME</a>
+		<span>></span>
+		<span id="all">Contact Us</span>
+	</div>
+<!-- main -->
+<h2>Enrolment enquiry</h2>
+<p>Contact us using our online enquiry form.<br><strong>&#x002A</strong><i>indicates required field.</i></p>
+  <!-- form -->
+  <form name="form-registration" onsubmit="return validateForm()">
+  	<div class="all">
+  		<!-- parent -->
+		<div class="fname">
+			<label for="fname">Parent First Name<strong>&#x002A</strong></label><br>
+		    <input type="text" id="fname" name="firstname" required minlength="3">
+	    </div>
+		<div class="lname">
+			<label for="lname">Parent Last Name<strong>&#x002A</strong></label><br>
+			<input type="text" id="lname" name="lastname" required minlength="3">
+		</div>
+		<!-- number -->
+	    <div class="pnum">
+		    <label for="pnumber">Phone Number<strong>&#x002A</strong></label><br>
+		   	<input type="text" id="pnumber" name="phonenumber" required minlength="9" maxlength="15">
+	    </div>
+	    <!-- email -->
+	    <div class="eml">
+		    <label for="email">Email<strong>&#x002A</strong></label><br>
+		    <input type="email" id="email" name="email" required="email"><br>
+	    </div>
+    </div>
+    <label for="area">Preferred Area<strong>&#x002A</strong></label><br>
+	    <select id="area" name="area" required>
+	      <option></option>
+	      <option>ABIANSEMAL</option>
+	      <option>BADUNG</option>
+	   	  <option>BANGLI</option>
+	      <option>DENPASAR</option>
+		  <option>GIANYAR</option>
+	      <option>JIMBARAN</option>
+	      <option>KARANGASEM</option>
+	      <option>KLUNGKUNG</option>
+	      <option>KUTA</option>
+	      <option>MENGWI</option>
+	      <option>NUSA DUA</option>
+	      <option>SANUR</option>
+	      <option>SINGARAJA</option>
+	      <option>TABANAN</option>
+	      <option>UBUD</option>
+	    </select><br>
+  	
+  	<!-- address -->
+    <label for="address">Address<strong>&#x002A</strong></label><br>
+    <input type="text" id="address" name="address" required><br>
+
+    	<label for="subject">Enquiry Subject</label><br>
+	    	<input type="checkbox" id="subject1" name="subject1" value="Enrolment">
+	    <label for="subject1"> Enrolment</label><br>
+	    	<input type="checkbox" id="subject2" name="subject1" value="Centre Information">
+	    <label for="subject2"> Centre Information</label><br>
+	    	<input type="checkbox" id="subject3" name="subject1" value="Fees">
+	    <label for="subject3"> Fees</label><br>
+	    	<input type="checkbox" id="subject4" name="subject1" value="Others">
+	    <label for="subject4"> Others, please specify below:</label><br>
+		<!-- other -->
+	    <label for="others">Others:</label><br>
+	    	<input type="text" id="others" name="others"><br>
+
+    <label for="aboutme">How did you hear about us?</label><br>
+	<input type="checkbox" id="aboutme1" name="aboutme1" value="Banner">
+	    
+	    <label for="aboutme1"> Banner</label><br>
+	    	<input type="checkbox" id="aboutme2" name="aboutme1" value="Brochure">
+	    <label for="aboutme2"> Brochure</label><br>
+	    	<input type="checkbox" id="aboutme3" name="aboutme1" value="Website">
+	    <label for="aboutme3"> Website</label><br>
+	    	<input type="checkbox" id="aboutme4" name="aboutme1" value="Social Media">
+	    <label for="aboutme4"> Social Media</label><br>
+	    	<input type="checkbox" id="aboutme5" name="aboutme1" value="TV">
+	    <label for="aboutme5"> TV</label><br>
+	    	<input type="checkbox" id="aboutme6" name="aboutme1" value="Friend">
+	    <label for="aboutme6"> Friend</label><br>
+	    	<input type="checkbox" id="aboutme7" name="aboutme1" value="Other">
+	   	
+	   	<label for="aboutme1"> Other</label><br>
+
+	  <!-- following purpose -->
+    <div class="agree1">
+	    <label id="agree1">
+	    	I agree to the use of my personal data for the following purposes (Student Instruction, 
+	    	Centre Operations, Updates on new products/services)<strong>&#x002A</strong>
+	    </label><br>
+	    	<input id="agree2" type="checkbox" required>
+	   	<label id="agree1"> Yes, I agree</label><br><br>
+   	</div>
+   	<!-- submit -->
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="follow-us">
+	<span id="follow-us">Follow Us</span>
+	<div id="center">
+		<a href="https://www.instagram.com/ikoprastya/"><img class="fa fa-instagram" src="../images/instagram-logo.jpg"></a>
+		<a href="https://youtu.be/IfrJOdnm0Bg"><img class="fa fa-youtube" src="../images/Logo-Youtube.png"></a>
+		<a href="https://twitter.com/SatuuSatunya"><img class="fa fa-instagram" src="../images/twiter-logo.png"></a>
+	</div>
+	<div id="background">
+	Photo by <a href="https://unsplash.com/@vadimsadovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vadim Sadovski</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  	</div>
+</div>
+</body>
+</html>

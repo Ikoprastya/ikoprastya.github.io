@@ -1,0 +1,109 @@
+
+body {
+  background-image: url(../images/vadim-sadovski-nlkCCijt2FE-unsplash.jpg);
+  color: #2f4f4f;
+  font: 13px/28px arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=password] {
+    width: 24%;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    width: 760px;
+    height: 1100px;
+    border: 10px solid #2e4d47;
+    margin: 90px auto;
+    padding: 10px 30px 30px 40px;
+    position: relative;
+    background-image: linear-gradient(lightblue,bisque);
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/*follow us*/
+.follow-us {
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+}
+.follow-us span {
+  top: 10%;
+  width: 100%;
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+}
+.fa {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-right: 20px;
+}
+#center {
+  box-sizing: border-box;
+  margin-left: 35.4%;
+}
+#background {
+  left: 10px;
+  color: white;
+  bottom: 10px;
+  position: absolute;
+}
+#background a {
+  color: white;
+}
+
